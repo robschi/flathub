@@ -1,5 +1,5 @@
 {
-	"app-id": "chat.tox.qTox",
+	"app-id": "io.github.qtox.qTox",
 	"runtime": "org.kde.Platform",
 	"sdk": "org.kde.Sdk",
 	"runtime-version": "5.10",
@@ -9,6 +9,7 @@
 		"--socket=pulseaudio",
 		"--socket=wayland",
 		"--socket=x11",
+		"--share=ipc",
 		"--filesystem=host",
 		"--device=all"
 	],
@@ -16,6 +17,11 @@
 		"cflags": "-O3 -DSQLITE_HAS_CODEC",
 		"cxxflags": "-O3"
 	},
+  "cleanup": [
+      "/include", 
+      "/lib/pkgconfig",
+      "/share/man"
+  ],
     "modules": [
         {
             "name": "sqlcipher",
