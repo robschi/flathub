@@ -3,7 +3,8 @@
 	"runtime": "org.kde.Platform",
 	"sdk": "org.kde.Sdk",
 	"runtime-version": "5.10",
-	"command": "qtox",
+	"command": "qtox",	
+	"rename-appdata-file": "qTox.appdata.xml",
 	"finish-args": [
 		"--share=network",
 		"--socket=pulseaudio",
