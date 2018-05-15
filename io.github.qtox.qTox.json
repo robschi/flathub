@@ -80,8 +80,7 @@
 				{
 					"type": "git",
 					"url": "https://github.com/qTox/qTox",
-					"tag": "v1.15.0", 
-					"commit": "02d6c63acaac0ae95fa8be3a1b9301657e6a4a94"
+					"commit": "c1caeb585a8845eaa72c7db79fb334262eafdb8f"
 				}
 			]
 		}
