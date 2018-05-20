@@ -13,6 +13,7 @@
 		"--socket=wayland",
 		"--socket=x11",
 		"--share=ipc",
+		"--filesystem=xdg-config/autostart:create",
 		"--filesystem=host",
 		"--device=all"
 	],
